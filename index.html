@@ -1,16 +1,59 @@
-<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>
-    Los Angeles
-  </title>
+    <title>
+        Dad Jokes
+    </title>
+    <style>
+        .wrapper {
+            text-align: center;
+            background: white;
+            padding: 2rem;
+            margin-top: 40px;
+            margin: 4rem auto;
+            font-size: 20px;
+            
+            font-family: 'Work Sans', sans-serif;
+        }
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh">
+        .joke {
+            font-size: 2rem;
+            font-weight: 900;
+        }
+
+        body {
+            font-size: 20px;
+            line-height: 1.5;
+            background-color: #3185FC;
+        }
+
+        a.button, button, input[type="button"] {
+            color: white;
+            background: #B74F6F;
+            padding: 1rem;
+            border: 0;
+            border: 2px solid transparent;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 2rem;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gluten:wght@100&family=Work+Sans&display=swap" rel="stylesheet">
 </head>
-<body align="center">
-  <div class="container" align="center">
-  <h1>
-    Los Angeles
-  </h1>
-  <img src="https://www.fodors.com/wp-content/uploads/2019/10/ThingsToKnowBeforeYouGoLosAngeles__HERO_iStock-468040530.jpg" style="width: 720px;margin-left: auto; max-width: 100%;">
-  </div>
+<body>
+    <div class="wrapper">
+        <div class="joke">
+            <p>Dad jokes.</p>
+        </div>
+        <button class="getJoke">
+            <span class="jokeText">Get a Joke</span>
+        </button>
+    </div>
+    <script src="script.js"></script>
+
 </body>
+</html>
